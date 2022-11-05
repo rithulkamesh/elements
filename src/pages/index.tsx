@@ -1,7 +1,7 @@
 import React from "react";
-import Bands from "../components/Bands";
+import { Bands } from "../components/Bands";
 import Footer from "../components/footer";
-import Masthead from "../components/masthead";
+import Masthead from "../components/Masthead";
 import Navbar from "../components/Navbar";
 
 const App: React.FC = () => {
@@ -9,10 +9,10 @@ const App: React.FC = () => {
     <div className="Home">
       <Navbar />
       <Masthead />
-      {/* <Bands /> */}
+      <Bands />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default App;

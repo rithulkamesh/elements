@@ -1,0 +1,22 @@
+{
+    "bands": [
+        {
+            "id": 0,
+            "name": "The Beatles",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.alphacoders.com%2F659%2F659040.jpg&f=1&nofb=1&ipt=07191246ee408e370dd9d3a666253c6ee1c0a563eb67fc65819a2b6cfafd22ef&ipo=images",
+            "description": "The Beatles were an English rock band formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential act of the rock era."
+        },
+        {
+            "id": 1,
+            "name": "Imagine Dragons",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdqwalls.com%2Fdownload%2Fimagine-dragons-2017-ib-1920x1080.jpg&f=1&nofb=1&ipt=73d38d7b3b1a701202ac876c345e8667e7ceb354389f98c18528c8d829aa50e1&ipo=images",
+            "description": "Imagine Dragons are an American pop rock band from Las Vegas, Nevada, consisting of lead vocalist Dan Reynolds, lead guitarist Wayne Sermon, bassist Ben McKee, and drummer Daniel Platzman. Formed in 2008, the band first gained exposure with the release of their debut studio album Night Visions (2012), which was supported by the singles 'It's Time' and 'Radioactive'."
+        },
+        {
+            "id": 2,
+            "name": "Maroon 5",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1886775.jpg&f=1&nofb=1&ipt=855c1a264cd3fecb9b1bc7c8c7bc692923e540f45a2138b7a4f2338319815029&ipo=images",
+            "description": "Maroon 5 is an American pop rock band that originated in Los Angeles, California. The band, which self-released an album called We Like Digging?, then signed to Reprise Records and released the album The Fourth World in 1997. After the album garnered a tepid response, the band parted ways with the record label."
+        }
+    ]
+}
