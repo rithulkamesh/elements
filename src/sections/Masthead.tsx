@@ -56,7 +56,10 @@ export const VideoPlayer = () => {
       loop
       className="masthead-video absolute w-full h-full object-cover"
     >
-      <source src="/loop.mov" type="video/mp4" />
+      <source
+        src="https://media.githubusercontent.com/media/rithulkamesh/elements/master/public/loop.mov"
+        type="video/mp4"
+      />
     </video>
   );
 };
