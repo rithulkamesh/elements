@@ -1,8 +1,9 @@
 import React from "react";
-import { Bands } from "../components/Bands";
+import { Bands } from "../sections/Bands";
 import Footer from "../components/footer";
-import Masthead from "../components/Masthead";
+import Masthead from "../sections/Masthead";
 import Navbar from "../components/Navbar";
+import Tickets from "../components/tickets";
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
       <Navbar />
       <Masthead />
       <Bands />
+      <Tickets />
       <Footer />
     </div>
   );

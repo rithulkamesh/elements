@@ -1,7 +1,12 @@
 import React from "react";
 import { Tile, TileBackground, TileContent, TileWrapper } from "../util/tile";
-import { BandBackground, BandLeft, BandRight, BandsContainer } from "./Band";
-import { bands } from "./bands.json";
+import {
+  BandBackground,
+  BandLeft,
+  BandRight,
+  BandsContainer,
+} from "../components/Band";
+import { bands } from "../components/bands.json";
 
 export const Bands: React.FC = () => {
   return (
@@ -28,7 +33,7 @@ export const Bands: React.FC = () => {
                       {band.name}{" "}
                     </div>
 
-                    <p className="text-2xl md:text-2xl">{band.description}</p>
+                    <p className="text-xl md:text-3xl">{band.description}</p>
                   </div>
                 </BandRight>
               </BandsContainer>
