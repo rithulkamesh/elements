@@ -1,5 +1,6 @@
 import React from "react";
 import Bands from "../components/Bands";
+import Footer from "../components/footer";
 import Masthead from "../components/masthead";
 import Navbar from "../components/Navbar";
 
@@ -8,7 +9,8 @@ const App: React.FC = () => {
     <div className="Home">
       <Navbar />
       <Masthead />
-      <Bands />
+      {/* <Bands /> */}
+      <Footer />
     </div>
   )
 }
