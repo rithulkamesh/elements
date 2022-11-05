@@ -1,20 +1,18 @@
 import React from "react";
-import TicketCard from "../sections/TicketCard";
+import TicketCard from "../components/TicketCard";
 
-type Props = {};
-
-const Tickets = (props: Props) => {
+const Tickets = () => {
   return (
     <div
-      className="antialiased w-full h-full bg-black text-gray-400 font-inter p-10 pt-1"
+      className="antialiased w-full h-full bg-black text-gray-400 font-inter p-10 pt-1 pb-[20em]"
       id="tickets"
     >
       <div className="container px-4 mx-auto">
         <div>
           <div id="title" className="text-center my-10">
-            <h1 className="font-bold text-4xl text-white">Tickets</h1>
+            <h1 className="font-bold text-6xl text-white">Tickets</h1>
             <p className="text-light text-gray-500 text-xl">
-              Grab them while they're still there!!
+              Grab them while they&apos;re still there!!
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2  justify-evenly gap-10 pt-10">

@@ -18,6 +18,7 @@ export const Bands: React.FC = () => {
         {bands.map((band) => (
           <Tile
             page={band.id}
+            key={band.id}
             renderContent={({ progress }) => (
               <BandsContainer>
                 <BandLeft progress={progress}>

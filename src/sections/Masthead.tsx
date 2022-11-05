@@ -1,22 +1,19 @@
 import { motion } from "framer-motion";
 import Button from "../components/Button";
 
+export const mastheadVariants = {
+  hidden: {
+    opacity: 0,
+    y: 100,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+  },
+};
 const Masthead = () => {
-  // Animate the masthead
-  const mastheadVariants = {
-    hidden: {
-      opacity: 0,
-      y: 100,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-    },
-  };
-
   return (
     <div className="mast">
-      {/* Display a banner about 1/3 of the page */}
       <motion.div className="h-[80vh] text-white masthead-bg">
         <VideoPlayer />
         <div className="layer flex flex-col">
@@ -29,7 +26,7 @@ const Masthead = () => {
                 animate="visible"
                 transition={{ duration: 0.2, delay: 0.1 }}
               >
-                Music Fest '23
+                Music Fest &apos;23
               </motion.h1>
             </div>
             <div className="mast-sub">
@@ -51,7 +48,7 @@ const Masthead = () => {
   );
 };
 
-const VideoPlayer = () => {
+export const VideoPlayer = () => {
   return (
     <video
       autoPlay

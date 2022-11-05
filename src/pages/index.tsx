@@ -1,9 +1,12 @@
 import React from "react";
-import { Bands } from "../sections/Bands";
-import Footer from "../components/footer";
-import Masthead from "../sections/Masthead";
-import Navbar from "../components/Navbar";
-import Tickets from "../components/tickets";
+import {
+  Bands,
+  Footer,
+  Locations,
+  Masthead,
+  Navbar,
+  Tickets,
+} from "../sections";
 
 const App: React.FC = () => {
   return (
@@ -11,6 +14,7 @@ const App: React.FC = () => {
       <Navbar />
       <Masthead />
       <Bands />
+      <Locations />
       <Tickets />
       <Footer />
     </div>

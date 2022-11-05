@@ -10,9 +10,9 @@ export const BandsContainer: React.FC<Children> = ({ children }) => {
 };
 
 export const BandBackground: React.FC<Children> = ({ children }) => (
-  <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen top-0 sticky">
-    <div className="bg-black h-[30vh] lg:h-auto"></div>
-    <div className="bg-black h-[70vh] lg:min-h-screen"></div>
+  <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen top-0 sticky bg-black">
+    <div className="h-[30vh] lg:h-auto"></div>
+    <div className="h-[70vh] lg:min-h-screen"></div>
   </div>
 );
 
@@ -44,7 +44,7 @@ export const BandRight: React.FC<SideProps> = ({ children, progress }) => {
         transform: `translateY(${translateY}px)`,
       }}
     >
-      <div className="w-full max-w-md pt-10 lg:pt-0 px-10 md:px-0">
+      <div className="w-full max-w-md pt-10 lg:pt-0 px-10 md:px-0 ">
         {children}
       </div>
     </div>
